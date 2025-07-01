@@ -1,0 +1,171 @@
+{
+  "tipos_pontos": [
+    {
+      "id": 1,
+      "descricao": "Massa Tradicional"
+    },
+    {
+      "id": 2,
+      "descricao": "Massa Fina"
+    },
+    {
+      "id": 3,
+      "descricao": "Massa Integral"
+    },
+    {
+      "id": 4,
+      "descricao": "Borda Recheada"
+    }
+  ],
+  "status_pedido": [
+    {
+      "id": 1,
+      "descricao": "Pedido em espera"
+    },
+    {
+      "id": 2,
+      "descricao": "Em produção"
+    },
+    {
+      "id": 3,
+      "descricao": "A caminho"
+    },
+    {
+      "id": 4,
+      "descricao": "Entregue"
+    },
+    {
+      "id": 5,
+      "descricao": "Pedido pendente"
+    },
+    {
+      "id": 6,
+      "descricao": "Pedido realizado"
+    }
+  ],
+  "pedidos": [],
+  "opcionais": {
+    "complemento": [
+      {
+        "id": 1,
+        "nome": "Combo Bebida + Breadsticks",
+        "descricao": "Palitos de massa crocantes com tempero italiano e parmesão + bebida de sua escolha",
+        "foto": "https://img.freepik.com/free-photo/garlic-bread-sticks_144627-34504.jpg",
+        "valor": 11,
+        "eh_novidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Breadsticks com molho de alho",
+        "descricao": "Palitos de massa crocantes com tempero italiano e molho de alho",
+        "foto": "https://img.freepik.com/free-photo/top-view-bread-sticks-with-sauce_23-2148244352.jpg",
+        "valor": 7,
+        "eh_novidade": false
+      }
+    ],
+    "bebidas": [
+      {
+        "id": 1,
+        "nome": "Coca Cola Lata 310 ml",
+        "descricao": "",
+        "foto": "https://instadelivery-public.nyc3.cdn.digitaloceanspaces.com/itens/1696431408651d7d30645b9_75_75.jpeg",
+        "valor": 6,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Shweppes Citrus 310 ml",
+        "descricao": "",
+        "foto": "https://instadelivery-public.nyc3.cdn.digitaloceanspaces.com/itens/16966989566521924cc9418_75_75.jpeg",
+        "valor": 6,
+        "eh_novidade": false
+      },
+      {
+        "id": 3,
+        "nome": "Coca Cola Zero Lata 310 ml",
+        "descricao": "",
+        "foto": "https://instadelivery-public.nyc3.cdn.digitaloceanspaces.com/itens/1696431455651d7d5fd3661_75_75.jpeg",
+        "valor": 6,
+        "eh_novidade": false
+      },
+      {
+        "id": 4,
+        "nome": "Del Valle Uva Lata 290 ml",
+        "descricao": "",
+        "foto": "https://instadelivery-public.nyc3.cdn.digitaloceanspaces.com/itens/1696431434651d7d4a1e285_75_75.jpeg",
+        "valor": 7,
+        "eh_novidade": false
+      }
+    ]
+  },
+  "menu": {
+    "limitado": [
+      {
+        "id": 1,
+        "nome": "Pizza Especial Nordestina",
+        "foto": "https://img.freepik.com/free-photo/pizza-with-cheese-tomatoes-olives_140725-6897.jpg",
+        "descricao": "Deliciosa pizza com molho de tomate caseiro, queijo coalho, carne de sol desfiada, cebola roxa, pimentão e finalizada com geleia de pimenta",
+        "valor": 38,
+        "eh_novidade": true
+      }
+    ],
+    "pizzas": [
+      {
+        "id": 1,
+        "nome": "Quatro Queijos Premium",
+        "foto": "https://img.freepik.com/free-photo/pizza-four-cheeses-wooden-board_140725-9452.jpg",
+        "descricao": "Deliciosa pizza com molho de tomate caseiro, mussarela, gorgonzola, parmesão e provolone, finalizada com orégano fresco e azeite extra virgem.",
+        "valor": 35,
+        "eh_novidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Vegetariana Especial",
+        "foto": "https://img.freepik.com/free-photo/vegetarian-pizza-with-mushrooms-olives_140725-1228.jpg",
+        "descricao": "Deliciosa pizza com molho de tomate caseiro, mussarela, champignon, pimentão, cebola roxa, azeitonas pretas, tomate cereja e rúcula fresca.",
+        "valor": 35,
+        "eh_novidade": true
+      },
+      {
+        "id": 3,
+        "nome": "Pepperoni Supreme",
+        "foto": "https://img.freepik.com/free-photo/pepperoni-pizza-with-cheese-tomato-sauce_140725-8274.jpg",
+        "descricao": "Deliciosa pizza com molho de tomate caseiro, mussarela, generosas fatias de pepperoni, parmesão ralado e orégano.",
+        "valor": 32,
+        "eh_novidade": true
+      },
+      {
+        "id": 4,
+        "nome": "Margherita Tradicional",
+        "foto": "https://img.freepik.com/free-photo/pizza-margarita-wooden-board-cheese-dough-crackers_140725-5391.jpg",
+        "descricao": "Deliciosa pizza com molho de tomate caseiro, mussarela de búfala, tomate fresco, manjericão e um toque de azeite extra virgem.",
+        "valor": 30,
+        "eh_novidade": true
+      },
+      {
+        "id": 5,
+        "nome": "Calabresa com Cebola",
+        "foto": "https://img.freepik.com/free-photo/pizza-with-salami-bell-pepper-cheese-tomato-sauce_140725-8290.jpg",
+        "descricao": "Deliciosa pizza com molho de tomate caseiro, mussarela, calabresa fatiada, cebola roxa, azeitonas e orégano.",
+        "valor": 30,
+        "eh_novidade": true
+      },
+      {
+        "id": 6,
+        "nome": "Frango com Catupiry",
+        "foto": "https://img.freepik.com/free-photo/pizza-with-chicken-bell-pepper-cheese_140725-6908.jpg",
+        "descricao": "Deliciosa pizza com molho de tomate caseiro, mussarela, frango desfiado temperado, catupiry cremoso e orégano.",
+        "valor": 20,
+        "eh_novidade": true
+      },
+      {
+        "id": 7,
+        "nome": "Mussarela Simples",
+        "foto": "https://img.freepik.com/free-photo/cheese-pizza-with-herbs-wooden-board_140725-9503.jpg",
+        "descricao": "Deliciosa pizza com molho de tomate caseiro, generosa camada de mussarela e orégano.",
+        "valor": 15,
+        "eh_novidade": true
+      }
+    ]
+  }
+}
